@@ -5,5 +5,4 @@
                         'Elixir.Dictionary.WordList','Elixir.Lists']},
               {registered,[]},
               {vsn,"0.1.0"},
-              {mod,{'Elixir.Dictionary.Application',[]}},
-              {extra_applications,[logger]}]}.
+              {mod,{'Elixir.Dictionary.Application',[]}}]}.

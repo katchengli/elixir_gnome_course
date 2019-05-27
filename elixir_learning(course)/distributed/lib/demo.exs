@@ -9,4 +9,14 @@ defmodule Demo do
         reverse()
     end
   end
+
+  def reverse_init do
+    receive do
+      msg ->
+        result = msg |> String.reverse
+        IO.puts result
+        reverse_init()
+    end
+
+  end
 end
